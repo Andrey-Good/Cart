@@ -1,0 +1,11 @@
+[project]
+name = "pendulum-rk4"
+version = "0.1.0"
+description = "Pendulum model solved as F(t, u) with a library analogue of rk4fixed"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.3.0",
+    "pygame>=2.6.0",
+    "scipy>=1.16.0",
+]
